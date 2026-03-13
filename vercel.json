@@ -1,0 +1,5 @@
+{
+  "buildCommand": "mkdir -p dist && sed \"s|%%ELEVENLABS_API_KEY%%|${ELEVENLABS_API_KEY}|g\" index.html > dist/index.html",
+  "outputDirectory": "dist",
+  "framework": null
+}
